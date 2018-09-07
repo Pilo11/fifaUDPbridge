@@ -14,7 +14,7 @@ func main() {
 	listenerIP := flag.String("lip", "0.0.0.0", "listener ip")
 	listenPort := flag.Int("lport", 5000, "the port on which will be listened for another FIFAFucker instance")
 	targetIP := flag.String("tip", "127.0.0.1", "target ip of another FIFAFucker instance")
-	targetPort := flag.Int("tport", 5001, "the target port of another FIFAFucker instance")
+	targetPort := flag.Int("tport", 5000, "the target port of another FIFAFucker instance")
 
 	flag.Parse()
 
